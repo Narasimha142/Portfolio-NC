@@ -12,7 +12,7 @@ document.querySelectorAll('.navbar-nav a').forEach(anchor => {
 
 function openAndDownload() {
     // Correct path to the resume file
-    const resumeLink = 'assets/Resume Fedex.pdf'; // Update this with your actual file path
+    const resumeLink = 'Resume Fedex.pdf'; // Update this with your actual file path
     const link = document.createElement('a');
     link.href = resumeLink;
     link.download = 'Resume.pdf'; // The name the file will have when downloaded
