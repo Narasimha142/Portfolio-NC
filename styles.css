@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+#about img {
+    width: 50%;
+    height: auto;
+}
+
+#projects .card {
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+
+/* Navbar Customization */
+.navbar {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient background */
+}
+
+.navbar-brand img {
+    border-radius: 50%; /* Rounded logo */
+    border: 2px solid #fff; /* White border around the logo */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffdd57; /* Highlighted text on hover */
+}
+
+.navbar-nav .btn-outline-light {
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .btn-outline-light:hover {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #fff;
+}
+
+/* Custom Styles for Technical Skills */
+#skills .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#skills .card-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+#skills .card-body ul {
+    padding-left: 20px;
+}
+
+#skills .card-body li {
+    margin: 8px 0;
+}
+
+#skills .card-header.bg-primary {
+    background-color: #007bff;
+}
+
+#skills .card-header.bg-info {
+    background-color: #17a2b8;
+}
+
+#skills .card-header.bg-success {
+    background-color: #28a745;
+}
+
+#skills .card-header.bg-warning {
+    background-color: #ffc107;
+}
+
+#skills .card-header.bg-danger {
+    background-color: #dc3545;
+}
+
+#skills .card-header.bg-dark {
+    background-color: #343a40;
+}
+/* About Section Custom Styles */
+#about h2 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+#about img {
+    max-width: 100%;
+    border: 8px solid #f8f9fa;
+    transition: transform 0.3s ease-in-out;
+}
+
+#about img:hover {
+    transform: scale(1.05);
+}
+
+#about .p-4 {
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#about .p-4:hover {
+    background-color: #f1f1f1;
+}
+
+#about ul li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+#about ul li i {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+/* Custom Styles for Experience Section */
+#experience .card {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#experience .card:hover {
+    transform: scale(1.05);
+}
+
+#experience .card-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#experience .card-body {
+    padding: 20px;
+}
+
+#experience .timeline {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+#experience .timeline-item {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+#experience .timeline-badge {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff;
+}
+
+#experience .timeline-content {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#experience .timeline-content h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#experience .timeline-content ul {
+    padding-left: 20px;
+}
+
+#experience .timeline-content ul li {
+    margin: 8px 0;
+}
+
+#experience .badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#experience .text-muted {
+    color: #6c757d;
+}
+/* Projects Section Custom Styles */
+#projects .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#projects .card:hover {
+    transform: scale(1.05); /* Hover effect for cards */
+}
+
+#projects .card img {
+    height: 200px;
+    object-fit: cover; /* Ensures images fit nicely within the card */
+}
+
+#projects .row {
+    display: flex;
+    flex-wrap: wrap; /* Ensures wrapping of cards on smaller screens */
+    justify-content: center; /* Aligns cards to the center */
+    gap: 20px; /* Spacing between cards */
+}
+
+#projects .card-body {
+    padding: 15px;
+}
+
